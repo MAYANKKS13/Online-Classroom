@@ -1,0 +1,47 @@
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img
+          src="https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo.svg"
+          alt="logo"
+          width="30"
+          height="24"
+          class="d-inline-block align-text-top"
+        />
+        e-Classroom
+      </a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navigationMenu"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div id="navigationMenu" class="collapse navbar-collapse">
+        <ul class="mb-lg-0 mb-2 me-auto navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" routerLink="/index">Home</a>
+
+          </li>
+          <li class="nav-item">
+            <a routerLink="/about" class="nav-link">About</a>
+          </li>
+          <li class="nav-item">
+            <a routerLink="/contact" class="nav-link">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!--
+      bootstrap screen size prefixes 
+      lg - large screen size with width >= 992px
+      md - medium screen size with width >= 768px
+      sm - small screen size with width >= 576px
+  
+      html data attributes
+      data-bs-toggle - bootstrap toggle
+      data-bs-target - bootstrap target
+   -->
+  
